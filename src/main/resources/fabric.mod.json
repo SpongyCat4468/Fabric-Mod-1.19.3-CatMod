@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cat-mod",
+	"version": "${version}",
+	"name": "My Mod",
+	"description": "This is my first mod! Just for fun lol",
+	"authors": [
+		"SpongyCat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cat-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.spongy.catmod.CatMod"
+		],
+		"client": [
+			"net.spongy.catmod.CatModClient"
+		],
+		"fabric-datagen": [
+			"net.spongy.catmod.CatModDataGenerator"
+		]
+	},
+	"mixins": [
+		"cat-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

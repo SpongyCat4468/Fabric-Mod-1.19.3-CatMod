@@ -13,6 +13,8 @@ import net.spongy.catmod.CatMod;
 public class ModItems {
     public static final Item CITRINE = registerItem("citrine",
             new Item(new FabricItemSettings()));
+    public static final Item RAW_CITRINE = registerItem("raw_citrine",
+            new Item(new FabricItemSettings()));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CatMod.MOD_ID,name), item);
     }
@@ -20,6 +22,10 @@ public class ModItems {
 
     public static void addItemstoItemGroup() {
         addtoItemGroup(ItemGroups.INGREDIENTS, CITRINE);
+        addtoItemGroup(ItemGroups.INGREDIENTS, RAW_CITRINE);
+
+        addtoItemGroup(ModItemGroup.CITRINE, CITRINE);
+        addtoItemGroup(ModItemGroup.CITRINE, RAW_CITRINE);
     }
     private static void addtoItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

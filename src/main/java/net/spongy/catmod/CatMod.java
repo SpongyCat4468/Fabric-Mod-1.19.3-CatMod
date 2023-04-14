@@ -2,6 +2,7 @@ package net.spongy.catmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.spongy.catmod.item.ModItemGroup;
 import net.spongy.catmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class CatMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 
 	}

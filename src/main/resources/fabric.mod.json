@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "cat-mod",
-	"version": "${version}",
+	"version": "${1.0.4}",
 	"name": "My Mod",
 	"description": "This is my first mod! Just for fun lol",
 	"authors": [
 		"SpongyCat"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/SpongyCat4468/Fabric-Mod-1.19.3-CatMod",
+		"sources": "https://github.com/SpongyCat4468/Fabric-Mod-1.19.3-CatMod"
 	},
 	"license": "MIT",
 	"icon": "",

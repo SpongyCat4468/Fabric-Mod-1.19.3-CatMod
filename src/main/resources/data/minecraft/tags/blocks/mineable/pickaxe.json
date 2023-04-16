@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "catmod:citrine_ore",
+    "catmod:citrine_block",
+    "catmod:deepslate_citrine_ore"
+  ]
+}

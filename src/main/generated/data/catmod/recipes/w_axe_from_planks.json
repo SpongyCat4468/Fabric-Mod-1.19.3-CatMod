@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "catmod:red_maple_planks"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#c ",
+    " c "
+  ],
+  "result": {
+    "item": "minecraft:wooden_axe"
+  }
+}

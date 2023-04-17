@@ -3,5 +3,12 @@
   "item.catmod.raw_citrine": "Raw Citrine",
   "block.catmod.citrine_block": "Block of Citrine",
   "block.catmod.citrine_ore": "Citrine Ore",
-  "block.catmod.deepslate_citrine_ore": "Deepslate Citrine Ore"
+  "block.catmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.catmod.red_maple_log": "Red Maple Log",
+  "block.catmod.red_maple_wood": "Red Maple Wood",
+  "block.catmod.stripped_red_maple_log": "Stripped Red Maple Log",
+  "block.catmod.stripped_red_maple_wood": "Stripped Red Maple Wood",
+  "block.catmod.red_maple_planks": "Red Maple Planks",
+  "block.catmod.red_maple_leaves": "Red Maple Leaves",
+  "block.catmod.red_maple_sapling": "Red Maple Sapling"
 }

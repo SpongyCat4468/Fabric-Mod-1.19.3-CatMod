@@ -3,6 +3,8 @@ package net.spongy.catmod.data;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
 
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.spongy.catmod.CatMod;
 
@@ -16,6 +18,8 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
         // HERE GOES FUTURE WORLD GEN!
+        entries.addAll(registries.getWrapperOrThrow(RegistryKeys.CONFIGURED_FEATURE));
+        entries.addAll(registries.getWrapperOrThrow(RegistryKeys.PLACED_FEATURE));
     }
 
     @Override

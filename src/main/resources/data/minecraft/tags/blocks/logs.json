@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "catmod:red_maple_log",
+    "catmod:red_maple_wood",
+    "catmod:stripped_red_maple_log",
+    "catmod:stripped_red_maple_wood"
+  ]
+}

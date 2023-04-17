@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "catmod:citrine"
+      "item": "tutorialmod:citrine"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
     "###"
   ],
   "result": {
-    "item": "catmod:citrine_block"
+    "item": "tutorialmod:citrine_block"
   }
 }

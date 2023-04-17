@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "catmod:citrine"
+      "item": "tutorialmod:citrine"
     },
     "S": {
       "item": "minecraft:stone"
@@ -15,6 +15,6 @@
     "SSS"
   ],
   "result": {
-    "item": "catmod:raw_citrine"
+    "item": "tutorialmod:raw_citrine"
   }
 }

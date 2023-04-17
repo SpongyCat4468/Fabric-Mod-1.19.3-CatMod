@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "cat-mod",
+	"id": "catmod",
 	"version": "${version}",
 	"name": "Cat Mod",
 	"description": "This is my first mod! Just for fun lol",

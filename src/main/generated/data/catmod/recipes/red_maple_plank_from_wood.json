@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "catmod:citrine_block"
+      "item": "catmod:red_maple_wood"
     }
   ],
   "result": {
-    "item": "catmod:citrine",
-    "count": 9
+    "item": "catmod:red_maple_planks",
+    "count": 4
   }
 }

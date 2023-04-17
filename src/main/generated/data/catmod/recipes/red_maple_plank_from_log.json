@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catmod:red_maple_log"
+    }
+  ],
+  "result": {
+    "item": "catmod:red_maple_planks",
+    "count": 4
+  }
+}

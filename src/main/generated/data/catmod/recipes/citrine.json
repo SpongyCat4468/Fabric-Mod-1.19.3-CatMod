@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "tutorialmod:citrine_block"
+      "item": "catmod:citrine_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "tutorialmod:citrine"
+    "item": "catmod:citrine"
   }
 }

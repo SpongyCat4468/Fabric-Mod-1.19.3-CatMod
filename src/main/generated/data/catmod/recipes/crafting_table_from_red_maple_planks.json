@@ -3,15 +3,14 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "catmod:citrine"
+      "item": "catmod:red_maple_planks"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "result": {
-    "item": "catmod:citrine_block"
+    "item": "minecraft:crafting_table"
   }
 }

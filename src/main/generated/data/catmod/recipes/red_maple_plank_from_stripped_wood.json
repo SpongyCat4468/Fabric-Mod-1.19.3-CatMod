@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "catmod:stripped_red_maple_wood"
+    }
+  ],
+  "result": {
+    "item": "catmod:red_maple_planks",
+    "count": 4
+  }
+}

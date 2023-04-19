@@ -6,6 +6,10 @@ All Citrine-related blocks can be only mine with pickaxe above iron tier.
 
 Silk touch and fortune also works on (Deepslate) Citrine Ore
 
+Adds a new wood type: Red Maple Tree!
+Texture by messXP https://www.planetminecraft.com/texture-pack/mapple-trees/
+Make sure to check his page out!
+
 ![2023-04-15_19 52 03](https://user-images.githubusercontent.com/130354790/232308288-b70f2d4e-f2c5-4225-87b8-edf57c35fe91.png)
 ![2023-04-15_20 26 26](https://user-images.githubusercontent.com/130354790/232308324-28d59b80-ea46-4b8c-a944-c1c5f795e847.png)
 ![2023-04-16_06 52 47](https://user-images.githubusercontent.com/130354790/232308326-a65e80ef-700e-462b-8b41-a240633b259e.png)

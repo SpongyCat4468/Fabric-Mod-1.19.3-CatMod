@@ -13,7 +13,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.spongy.catmod.CatMod;
+import net.spongy.catmod.block.custom.ModDoorBlock;
 import net.spongy.catmod.block.custom.ModStairsBlock;
+import net.spongy.catmod.block.custom.ModTrapdoorBlock;
 import net.spongy.catmod.item.ModItemGroup;
 import net.spongy.catmod.world.tree.RedMapleSaplingGenerator;
 
@@ -47,7 +49,11 @@ public class ModBlocks {
     public static final Block RED_MAPLE_STAIRS = registerBlock("red_maple_stairs",
             new ModStairsBlock(ModBlocks.RED_MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).strength(2.0f)), ModItemGroup.CITRINE);
     public static final Block RED_MAPLE_SLAB = registerBlock("red_maple_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.CITRINE);
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_SLAB).strength(2.0f)), ModItemGroup.CITRINE);
+    public static final Block RED_MAPLE_DOOR = registerBlock("red_maple_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(2.0f).nonOpaque(), null, null), ModItemGroup.CITRINE);
+    public static final Block RED_MAPLE_TRAPDOOR = registerBlock("red_maple_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_TRAPDOOR).strength(2.0f).nonOpaque(), null, null), ModItemGroup.CITRINE);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(CatMod.MOD_ID, name), block);

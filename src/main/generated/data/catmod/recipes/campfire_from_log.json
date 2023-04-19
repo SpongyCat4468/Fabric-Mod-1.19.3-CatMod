@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "catmod:citrine"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XYX",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:campfire"
+  }
+}

@@ -13,7 +13,7 @@ public class ModItemGroup {
 
     public static void registerItemGroups() {
         CITRINE = FabricItemGroup.builder(new Identifier(CatMod.MOD_ID, "citrine"))
-                .displayName(Text.literal("Citrine Item Group"))
+                .displayName(Text.literal("Cat Mod Item"))
                 .icon(() -> new ItemStack(ModItems.CITRINE)).build();
     }
 }

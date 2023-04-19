@@ -13,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.spongy.catmod.CatMod;
+import net.spongy.catmod.block.custom.ModStairsBlock;
 import net.spongy.catmod.item.ModItemGroup;
 import net.spongy.catmod.world.tree.RedMapleSaplingGenerator;
 
@@ -43,7 +44,10 @@ public class ModBlocks {
 
     public static final Block RED_MAPLE_SAPLING  = registerBlock("red_maple_sapling",
             new SaplingBlock(new RedMapleSaplingGenerator(),FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(0.0f)), ModItemGroup.CITRINE);
-
+    public static final Block RED_MAPLE_STAIRS = registerBlock("red_maple_stairs",
+            new ModStairsBlock(ModBlocks.RED_MAPLE_PLANKS.getDefaultState(),FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).strength(2.0f)), ModItemGroup.CITRINE);
+    public static final Block RED_MAPLE_SLAB = registerBlock("red_maple_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.CITRINE);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(CatMod.MOD_ID, name), block);

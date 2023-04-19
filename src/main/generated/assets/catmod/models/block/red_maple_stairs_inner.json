@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "catmod:block/red_maple_planks",
+    "side": "catmod:block/red_maple_planks",
+    "top": "catmod:block/red_maple_planks"
+  }
+}

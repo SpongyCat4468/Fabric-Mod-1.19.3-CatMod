@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "catmod:red_maple_planks"
+    "catmod:red_maple_planks",
+    "catmod:red_maple_stairs",
+    "catmod:red_maple_slab"
   ]
 }

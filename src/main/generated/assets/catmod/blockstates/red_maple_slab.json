@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "catmod:block/red_maple_slab"
+    },
+    "type=double": {
+      "model": "catmod:block/red_maple_planks"
+    },
+    "type=top": {
+      "model": "catmod:block/red_maple_slab_top"
+    }
+  }
+}

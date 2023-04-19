@@ -10,6 +10,8 @@ public class ModFlammableBlockRegistry {
         registry.add(ModBlocks.RED_MAPLE_PLANKS, 5, 5);
         registry.add(ModBlocks.STRIPPED_RED_MAPLE_LOG, 5, 5);
         registry.add(ModBlocks.STRIPPED_RED_MAPLE_WOOD, 5, 5);
+        registry.add(ModBlocks.RED_MAPLE_SLAB, 5, 5);
+        registry.add(ModBlocks.RED_MAPLE_STAIRS, 5, 5);
 
         registry.add(ModBlocks.RED_MAPLE_LEAVES, 30, 60);
         registry.add(ModBlocks.RED_MAPLE_PLANKS, 5, 20);

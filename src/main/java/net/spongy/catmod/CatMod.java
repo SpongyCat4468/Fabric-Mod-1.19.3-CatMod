@@ -9,6 +9,7 @@ import net.spongy.catmod.block.ModFlammableBlockRegistry;
 import net.spongy.catmod.data.ModWorldGenerator;
 import net.spongy.catmod.item.ModItemGroup;
 import net.spongy.catmod.item.ModItems;
+import net.spongy.catmod.registries.ModRegistries;
 import net.spongy.catmod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,5 +29,7 @@ public class CatMod implements ModInitializer {
 		ModFlammableBlockRegistry.registerFlammableBlocks();
 		StrippableBlockRegistry.register(ModBlocks.RED_MAPLE_LOG, ModBlocks.STRIPPED_RED_MAPLE_LOG);
 		StrippableBlockRegistry.register(ModBlocks.RED_MAPLE_WOOD, ModBlocks.STRIPPED_RED_MAPLE_WOOD);
+
+        ModRegistries.registerModFuels();
 	}
 }

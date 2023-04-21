@@ -1,4 +1,4 @@
-Fabric-Mod-1.19.3-CatMod
+Fabric-Mod-CatMod
 
 Adds Citrine (a yellow gem), Citrine Block, Raw Citrine, (Deepslate) Citrine Ore.
 
